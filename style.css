@@ -1,0 +1,243 @@
+body{
+   
+    padding: 0;
+    margin: 0;
+    font: 1rem "Fira Sans", sans-serif;
+   
+    width: 1519.2px;
+}
+.container{
+    
+    height: 100vh;
+    
+    background-image: url(background.png);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+.navbar{
+    margin:0px  20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1450.2px;
+    position: fixed;
+    top: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+   
+}
+.profile button{
+    font: 0.9em "Fira Sans", sans-serif;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+}
+#login{
+    background-color: white;
+    
+}
+#signup{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    flex: 1;
+   
+    position: relative;
+   
+   
+  
+}
+.order{
+    padding: 35px;
+   
+    position: absolute;
+    top: 160px;
+    
+}
+.order p{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.delivery{
+    padding: 8px 16px;
+    width: 540px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.delivery:active{
+    border-bottom: 1px solid rgb(98, 210, 255);
+}
+.deliveryAddress{
+    margin-left: 20px;
+    flex: 1;
+    
+}
+.deliveryAddress input{
+    border: none;
+    font: 1.0rem "Fira Sans", sans-serif;
+}
+.deliveryAddress input:focus{
+    outline: none;
+}
+.deliverNow{
+    padding: 8px 16px;
+    width: 191.24px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+.selectTime{
+    margin-left: 20px;
+    flex: 1;
+    
+}
+.selectTime select{
+    outline: none;
+    border: none;
+}
+.search button{
+    height: 61px;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font: 1.0rem "Fira Sans", sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signin{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.signin a {
+    color: black;
+    
+    font-size: 15px;
+}
+.tasks{
+   
+    
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 80px 0px;
+}
+.tasks img{
+    height: 280px;
+    width: 470px;
+    
+}
+.tasks h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}   
+.tasks a{
+    color: black;
+} 
+.cities{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.379);
+    margin-top: 80px;
+   
+    padding: 80px 40px
+}
+.showcities{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cities img{
+    height: 360px;
+}
+.cities a{
+    color: black;
+}
+ table{
+    width: 100%;
+  
+}
+ td{
+    padding: 10px;
+}
+.end{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 0px 40px;
+   
+
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right{
+    flex: 1;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.download{
+    display: flex;
+    gap: 20px;
+}
+.download img{
+    width: 145px;
+
+}
+hr{
+    width: 95%;
+}
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 0px 40px
+}
+.social{
+    display: flex;
+    gap: 30px;
+}
+.policies22{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.policies a{
+    text-decoration: none;
+    color: black;
+}
+.policies a:hover{
+    text-decoration: underline;
+}
+
